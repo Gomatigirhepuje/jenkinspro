@@ -1,0 +1,8 @@
+17:56:12.111 [main] INFO  resources.Base - Driver is initialise
+17:56:37.762 [main] INFO  resources.Base - navigated to home page
+17:56:42.142 [main] INFO  resources.Base - succesfully valitedted text msg
+17:57:18.171 [main] INFO  resources.Base - navigated to home page
+17:57:18.275 [main] INFO  resources.Base - navigation bar is displayed
+17:57:49.809 [main] INFO  resources.Base - 1st data
+17:58:21.727 [main] INFO  resources.Base - 2nd dta
+13:35:44.200 [main] INFO  resources.Base - 1st data

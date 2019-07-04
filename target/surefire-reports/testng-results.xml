@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="120189" started-at="2019-07-04T09:14:06Z" finished-at="2019-07-04T09:16:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="120189" started-at="2019-07-04T09:14:06Z" finished-at="2019-07-04T09:16:06Z">
+      <class name="jbk.com.ValidateNavigation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:jbk.com.ValidateNavigation@1c17b83]" name="initialize" is-config="true" duration-ms="19308" started-at="2019-07-04T14:44:44Z" finished-at="2019-07-04T14:45:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateAppNavigationBar()[pri:0, instance:jbk.com.ValidateNavigation@1c17b83]" name="ValidateAppNavigationBar" duration-ms="687" started-at="2019-07-04T14:45:03Z" finished-at="2019-07-04T14:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppNavigationBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jbk.com.ValidateNavigation@1c17b83]" name="tearDown" is-config="true" duration-ms="643" started-at="2019-07-04T14:45:04Z" finished-at="2019-07-04T14:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- jbk.com.ValidateNavigation -->
+      <class name="jbk.com.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:jbk.com.HomePage@ebcd03]" name="initialize" is-config="true" duration-ms="5003" started-at="2019-07-04T14:45:04Z" finished-at="2019-07-04T14:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:jbk.com.HomePage@ebcd03]" name="basePageNavigation" duration-ms="30682" started-at="2019-07-04T14:45:09Z" data-provider="getData" finished-at="2019-07-04T14:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goma@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[132423]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1st data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jbk.com.HomePage@ebcd03]" name="tearDown" is-config="true" duration-ms="524" started-at="2019-07-04T14:45:40Z" finished-at="2019-07-04T14:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:jbk.com.HomePage@ebcd03]" name="initialize" is-config="true" duration-ms="4703" started-at="2019-07-04T14:45:40Z" finished-at="2019-07-04T14:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:jbk.com.HomePage@ebcd03]" name="basePageNavigation" duration-ms="20958" started-at="2019-07-04T14:45:45Z" data-provider="getData" finished-at="2019-07-04T14:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gomati@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[161616]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2nd dta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jbk.com.HomePage@ebcd03]" name="tearDown" is-config="true" duration-ms="80" started-at="2019-07-04T14:46:06Z" finished-at="2019-07-04T14:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- jbk.com.HomePage -->
+      <class name="jbk.com.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:jbk.com.ValidateTitle@3b36e0]" name="initialize" is-config="true" duration-ms="36877" started-at="2019-07-04T14:44:06Z" finished-at="2019-07-04T14:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateAppTitle()[pri:0, instance:jbk.com.ValidateTitle@3b36e0]" name="ValidateAppTitle" duration-ms="183" started-at="2019-07-04T14:44:43Z" finished-at="2019-07-04T14:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jbk.com.ValidateTitle@3b36e0]" name="tearDown" is-config="true" duration-ms="523" started-at="2019-07-04T14:44:43Z" finished-at="2019-07-04T14:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- jbk.com.ValidateTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

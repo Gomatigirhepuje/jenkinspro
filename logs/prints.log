@@ -1,0 +1,8 @@
+13:36:21.458 [main] INFO  resources.Base - 2nd dta
+14:44:35.203 [main] INFO  resources.Base - Driver is initialise
+14:44:43.296 [main] INFO  resources.Base - navigated to home page
+14:44:43.479 [main] INFO  resources.Base - succesfully valitedted text msg
+14:45:03.313 [main] INFO  resources.Base - navigated to home page
+14:45:03.999 [main] INFO  resources.Base - navigation bar is displayed
+14:45:33.409 [main] INFO  resources.Base - 1st data
+14:46:03.010 [main] INFO  resources.Base - 2nd dta

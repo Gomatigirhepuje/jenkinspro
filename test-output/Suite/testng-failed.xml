@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="jbk.com.listners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="jbk.com.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- jbk.com.HomePage -->
+      <class name="jbk.com.ValidateTitle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- jbk.com.ValidateTitle -->
+      <class name="jbk.com.ValidateNavigation">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- jbk.com.ValidateNavigation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
